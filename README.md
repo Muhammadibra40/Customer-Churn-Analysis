@@ -40,13 +40,10 @@ The project uses a dataset containing customer details and historical behaviors,
 - Payment method  
 - Churn label (Yes/No)  
 
-You can download the dataset [here](link-to-dataset-if-applicable).
+You can download the dataset [here]([link-to-dataset-if-applicable](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
 
 ### **Features**
 - **Descriptive Analysis**: Summarizes trends and behaviors.  
-- **Predictive Modeling**: Predicts churn using machine learning algorithms.  
-- **Feature Engineering**: Enhances dataset quality through techniques like scaling and encoding.
-
 ---
 
 ## **Project Workflow**
@@ -59,10 +56,6 @@ You can download the dataset [here](link-to-dataset-if-applicable).
    - Handling missing values.  
    - Encoding categorical variables.  
    - Scaling numeric features.  
-
-3. **Model Building**  
-   - Comparing algorithms like Logistic Regression, Random Forest, and XGBoost.  
-   - Hyperparameter tuning for optimal performance.  
 
 4. **Evaluation**  
    - Confusion Matrix, ROC-AUC, and other metrics.  
@@ -92,7 +85,7 @@ You can download the dataset [here](link-to-dataset-if-applicable).
   - Pandas, NumPy for data manipulation  
   - Matplotlib, Seaborn for visualization  
   - Scikit-learn, XGBoost for machine learning  
-- **Tools**: Jupyter Notebook, Google Colab  
+- **Tools**: Jupyter Notebook, Power BI
 
 ---
 
@@ -119,7 +112,16 @@ You can download the dataset [here](link-to-dataset-if-applicable).
 
 - **Insights**: Identified key factors influencing churn, such as contract type and tenure.  
 - **Model Performance**: Achieved a ROC-AUC score of XX%, demonstrating strong predictive capabilities.  
-- **Recommendations**: Suggested strategies for improving customer retention based on analysis.
+- **Recommendations**:
+Customized Retention Campaigns: Implement Targeted Retention Strategies for Each Customer Type
+High-Value, Long-Standing, Highest Call Failure Rate (Cluster 0):
+Prioritize network reliability and loyalty incentives because the call failure was too much for them to handle, and they are the highest users of SMSs, so promotions can be done in this area.
+
+Low-Value, Low-Engagement, Low-Relationship (Cluster 1):
+Lower call failures than the previous group but lower complaining rate, which means that they couldn't even bear the low call-failure.
+
+Low-Value, Highest-Usage, Lowest in Subscription Length (Cluster 2):
+Offer personalized plans and promotions to gain their interest on onboarding when they get subscription..
 
 ---
 
