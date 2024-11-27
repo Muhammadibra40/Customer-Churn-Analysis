@@ -5,7 +5,7 @@ Here’s a well-structured and professional README file for your Customer Churn 
 # **Customer Churn Analysis**
 
 ![Customer Churn Analysis](https://img.shields.io/badge/%20Analysis-blue.svg)  
-A comprehensive data analysis and predictive modeling project focused on understanding and reducing customer churn using machine learning techniques.
+A comprehensive data analysis understanding causes of customer churn using machine learning techniques.
 
 ---
 
