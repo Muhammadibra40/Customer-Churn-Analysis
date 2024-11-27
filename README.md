@@ -47,7 +47,7 @@ The project uses a dataset containing customer details and historical behaviors,
 - Churn: binary (1: churn, 0: non-churn) - Class label
 - Customer Value: The calculated value of customer
 
-You can download the dataset [here]([Iranian Churn Dataset](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
+You can download the dataset ([Iranian Churn Dataset](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
 
 ### **Features**
 - **Descriptive Analysis**: Summarizes trends and behaviors.  
@@ -100,15 +100,15 @@ You can download the dataset [here]([Iranian Churn Dataset](https://www.kaggle.c
 - **Insights**: Identified key factors influencing churn, such as contract type and tenure.  
 - **Model Performance**: Achieved a ROC-AUC score of XX%, demonstrating strong predictive capabilities.  
 - **Recommendations**:
-Customized Retention Campaigns: Implement Targeted Retention Strategies for Each Customer Type
-High-Value, Long-Standing, Highest Call Failure Rate (Cluster 0):
-Prioritize network reliability and loyalty incentives because the call failure was too much for them to handle, and they are the highest users of SMSs, so promotions can be done in this area.
+- Customized Retention Campaigns: Implement Targeted Retention Strategies for Each Customer Type
+- High-Value, Long-Standing, Highest Call Failure Rate (Cluster 0):
+  Prioritize network reliability and loyalty incentives because the call failure was too much for them to handle, and they are the highest users of SMSs, so        promotions can be done in this area.
 
-Low-Value, Low-Engagement, Low-Relationship (Cluster 1):
-Lower call failures than the previous group but lower complaining rate, which means that they couldn't even bear the low call-failure.
+- Low-Value, Low-Engagement, Low-Relationship (Cluster 1):
+  Lower call failures than the previous group but lower complaining rate, which means that they couldn't even bear the low call-failure.
 
-Low-Value, Highest-Usage, Lowest in Subscription Length (Cluster 2):
-Offer personalized plans and promotions to gain their interest on onboarding when they get subscription..
+- Low-Value, Highest-Usage, Lowest in Subscription Length (Cluster 2):
+  Offer personalized plans and promotions to gain their interest on onboarding when they get subscription..
 
 ---
 
