@@ -1,7 +1,3 @@
-Here’s a well-structured and professional README file for your Customer Churn Analysis project:
-
----
-
 # **Customer Churn Analysis**
 
 ![Customer Churn Analysis](https://img.shields.io/badge/%20Analysis-blue.svg)  
@@ -16,15 +12,14 @@ A comprehensive data analysis understanding causes of customer churn using machi
 3. [Project Workflow](#project-workflow)  
 4. [Technologies Used](#technologies-used)  
 5. [How to Run the Project](#how-to-run-the-project)  
-6. [Results](#results)  
-7. [Contributing](#contributing)  
-8. [License](#license)
+6. [Results](#results)   
 
 ---
 
 ## **Introduction**
 
 Customer churn is a significant challenge for businesses across industries. This project aims to analyze customer data, identify patterns leading to churn.
+Finishing with a Dashboard that illustrates everything was found in the analysis. 
 
 ---
 
@@ -83,15 +78,11 @@ You can download the dataset [Iranian Churn Dataset](https://www.kaggle.com/data
    git clone https://github.com/Muhammadibra40/Customer-Churn-Analysis.git
    cd Customer-Churn-Analysis
    ```
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter notebook or Python scripts:  
+2. Run the Jupyter notebook or Python scripts:  
    ```bash
    jupyter notebook
    ```
-4. Follow the notebook steps for EDA, preprocessing, and modeling.
+3. Follow the notebook steps for EDA, preprocessing, and modeling.
 
 ---
 
@@ -111,37 +102,3 @@ You can download the dataset [Iranian Churn Dataset](https://www.kaggle.com/data
   Offer personalized plans and promotions to gain their interest on onboarding when they get subscription..
 
 ---
-
-## **Contributing**
-
-Contributions are welcome! Please follow these steps:  
-1. Fork the repository.  
-2. Create a feature branch:  
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:  
-   ```bash
-   git commit -m "Add feature description"
-   ```
-4. Push to the branch:  
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a Pull Request.
-
----
-
-## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## **Acknowledgements**
-
-Special thanks to the open-source community and [Your Organization or Mentor Name, if any] for their support.
-
----
-
-Feel free to customize this README further as per your specific requirements or preferences!
