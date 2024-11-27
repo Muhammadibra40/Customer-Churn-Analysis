@@ -47,7 +47,7 @@ The project uses a dataset containing customer details and historical behaviors,
 - Churn: binary (1: churn, 0: non-churn) - Class label
 - Customer Value: The calculated value of customer
 
-You can download the dataset ([Iranian Churn Dataset](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
+You can download the dataset [Iranian Churn Dataset](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
 
 ### **Features**
 - **Descriptive Analysis**: Summarizes trends and behaviors.  
