@@ -14,12 +14,11 @@ A comprehensive data analysis understanding causes of customer churn using machi
 1. [Introduction](#introduction)  
 2. [Features and Dataset](#features-and-dataset)  
 3. [Project Workflow](#project-workflow)  
-4. [Modeling and Evaluation](#modeling-and-evaluation)  
-5. [Technologies Used](#technologies-used)  
-6. [How to Run the Project](#how-to-run-the-project)  
-7. [Results](#results)  
-8. [Contributing](#contributing)  
-9. [License](#license)
+4. [Technologies Used](#technologies-used)  
+5. [How to Run the Project](#how-to-run-the-project)  
+6. [Results](#results)  
+7. [Contributing](#contributing)  
+8. [License](#license)
 
 ---
 
@@ -33,14 +32,22 @@ Customer churn is a significant challenge for businesses across industries. This
 
 ### **Dataset Description**
 The project uses a dataset containing customer details and historical behaviors, such as demographics, service usage, and complaints. The dataset includes:  
-- Customer ID  
-- Tenure  
-- Monthly charges and total charges  
-- Contract type (monthly, yearly, etc.)  
-- Payment method  
-- Churn label (Yes/No)  
+- Anonymous Customer ID
+- Call Failures: number of call failures
+- Complains: binary (0: No complaint, 1: complaint)
+- Subscription Length: total months of subscription
+- Charge Amount: Ordinal attribute (0: lowest amount, 9: highest amount)
+- Seconds of Use: total seconds of calls
+- Frequency of use: total number of calls
+- Frequency of SMS: total number of text messages
+- Distinct Called Numbers: total number of distinct phone calls
+- Age Group: ordinal attribute (1: younger age, 5: older age)
+- Tariff Plan: binary (1: Pay as you go, 2: contractual)
+- Status: binary (1: active, 2: non-active)
+- Churn: binary (1: churn, 0: non-churn) - Class label
+- Customer Value: The calculated value of customer
 
-You can download the dataset [here]([link-to-dataset-if-applicable](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
+You can download the dataset [here]([Iranian Churn Dataset](https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset/data).
 
 ### **Features**
 - **Descriptive Analysis**: Summarizes trends and behaviors.  
@@ -57,26 +64,6 @@ You can download the dataset [here]([link-to-dataset-if-applicable](https://www.
    - Encoding categorical variables.  
    - Scaling numeric features.  
 
-4. **Evaluation**  
-   - Confusion Matrix, ROC-AUC, and other metrics.  
-   - Cross-validation to ensure robustness.  
-
----
-
-## **Modeling and Evaluation**
-
-### **Algorithms Used**
-- Logistic Regression  
-- Random Forest  
-- Gradient Boosting (XGBoost)  
-
-### **Key Metrics**  
-- **Accuracy**  
-- **Precision & Recall**  
-- **F1 Score**  
-- **ROC-AUC Curve**
-
----
 
 ## **Technologies Used**
 
